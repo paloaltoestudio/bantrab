@@ -51,7 +51,7 @@ export default function Photo() {
                         screenshotFormat="image/jpeg"
                         videoConstraints={videoConstraints}
                     />
-                    <button onClick={capture}>Tomar Foto</button>
+                    <button className='link' onClick={capture}>Tomar Foto</button>
                 </div>
             )}
 
